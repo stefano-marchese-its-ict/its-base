@@ -1,5 +1,6 @@
 // include standard input/output library
 #include <stdio.h>
+#include <stdbool.h>
 
 // main function - the entry point 
 // the return value of the main is an integer
@@ -20,6 +21,10 @@ int main()
 
     // print a message with the name entered
     printf("\nHello\t%s\n\n\n", name);
+
+    bool b = true;
+
+    printf("my bool value %d", b);
 
     /* return 0: indicated that the program is terminated
        successfully */
