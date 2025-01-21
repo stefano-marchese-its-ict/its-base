@@ -5,6 +5,7 @@
 // macros
 #define DEBUG_PRINT(x) printf("[DEBUG] - ");printf("%s",x);\
 printf("\n"); 
+#define SUM(x,y) ((x) + (y))
 #define NEW_LINE printf("\n");
 #define PI_GRECO 3.14159265358
 
